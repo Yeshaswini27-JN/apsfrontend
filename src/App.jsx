@@ -6,7 +6,7 @@ export default function App() {
 
   async function handleClick() {
 
-      const response = await axios.post("http://localhost:3000/login", { username });
+      const response = await axios.post("https://apsbackend-aejk.onrender.com/login", { username });
       console.log(response.data);
   
   }
